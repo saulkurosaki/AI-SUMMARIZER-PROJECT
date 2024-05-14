@@ -10,7 +10,13 @@ const Demo = () => {
         <form
           className="relative flex justify-center items-center"
           onSubmit={() => {}}
-        ></form>
+        >
+          <img
+            src={linkIcon}
+            alt="link_icon"
+            className="absolute left-0 my-2 ml-3 w-5"
+          />
+        </form>
       </div>
     </section>
   );
