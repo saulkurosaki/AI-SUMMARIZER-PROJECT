@@ -79,7 +79,15 @@ const Demo = () => {
               key={`link-${index}`}
               onClick={() => setArticle(article)}
               className="link_card"
-            ></div>
+            >
+              <div className="copy_btn">
+                <img
+                  src={copy}
+                  alt="copy_icon"
+                  className="w-[40%] h-[40%] object-contain"
+                />
+              </div>
+            </div>
           ))}
         </div>
       </div>
