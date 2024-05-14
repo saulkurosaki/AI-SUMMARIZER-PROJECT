@@ -73,6 +73,7 @@ const Demo = () => {
         </form>
 
         {/* Browse URL History */}
+        <div className="flex flex-col gap-1 max-h-60 overflow-y-auto"></div>
       </div>
 
       {/* Display Results */}
